@@ -16,5 +16,3 @@
 Адаптивный дизайн осуществляется с помощью медиа-запросов, макет сайта создан с помощью Grid и flexbox, шрифты сглажены для macOS и Windows. Присутствует БЭМ-методология.
 
 * [Ссылка на GitHub Pages](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-
