@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="pages">
-    <div class="page">
+<body class="page">
+    
         <header class="header">
             
                 <img src="./image/header-logo.svg" class="header__logo" alt="карта">
@@ -45,13 +45,13 @@
                     вашего
                     отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__lists">Часовых поясов <span class="intro__lists intro__lists_number"> 11</span></li>
-                    <li class="intro__lists">Объектов природного наследия ЮНЕСКО <span class="intro__lists intro__lists_number">
+                    <li class="intro__lists">Часовых поясов <span class="intro__lists intro__number"> 11</span></li>
+                    <li class="intro__lists">Объектов природного наследия ЮНЕСКО <span class="intro__lists intro__number">
                             12</span></li>
-                    <li class="intro__lists">Объектов культурного наследия ЮНЕСКО <span class="intro__lists intro__lists_number">
+                    <li class="intro__lists">Объектов культурного наследия ЮНЕСКО <span class="intro__lists intro__number">
                             16</span></li>
-                    <li class="intro__lists">Природных заповедников <span class="intro__lists intro__lists_number"> 105</span></li>
-                    <li class="intro__lists">Аэропортов <span class="intro__lists intro__lists_number"> 241</span></li>
+                    <li class="intro__lists">Природных заповедников <span class="intro__lists intro__number"> 105</span></li>
+                    <li class="intro__lists">Аэропортов <span class="intro__lists intro__number"> 241</span></li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -74,7 +74,7 @@
                         коса</h2>
                     <img src="./image/place-kosa.jpg" class="place__image" alt="коса">
                     <div class="place__website">
-                        <h4 class="place__url-heading">URL</h4>
+                        <p class="place__url-heading">URL</p>
                         <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
                     </div>
                     <div class="place__paragraphs">
@@ -96,7 +96,7 @@
                     <h2 class="place__title">Кольский</h2>
                     <img src="./image/place-kolsky.jpg" class="place__image" alt="Кольский">
                     <div class="place__website">
-                        <h4 class="place__url-heading">URL</h4>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             class="place__link" target="_blank">National Geographic</a>
                     </div>
@@ -118,9 +118,9 @@
                     <h2 class="place__title">Алтай</h2>
                     <img src="./image/place-altai.jpg" class="place__image" alt="Алтай">
                     <div class="place__website">
-                        <h4 class="place__url-heading">URL</h4>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                            class="place__link place__links" target="_blank">Facebook</a>
+                            class="place__link" target="_blank">Facebook</a>
                     </div>
                     <div class="place__paragraphs">
                         <p class="place__paragraph">Алтай — одно из красивейших мест в России.
@@ -143,7 +143,7 @@
                     <h2 class="place__title">Зимний Байкал</h2>
                     <img src="./image/place-winter-baikal.jpg" class="place__image" alt="лёд">
                     <div class="place__website">
-                        <h4 class="place__url-heading">URL</h4>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                     <div class="place__paragraphs">
@@ -165,7 +165,7 @@
                     <h2 class="place__title">Карелия</h2>
                     <img src="./image/place-karelia.jpg" class="place__image" alt="лес">
                     <div class="place__website">
-                        <h4 class="place__url-heading">URL</h4>
+                        <p class="place__url-heading">URL</p>
                         <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
                     </div>
                     <div class="place__paragraphs">
@@ -183,14 +183,15 @@
                     </div>
                 </article>
             </section>
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
-                <img src='./image/cover-trains.jpg' class="cover__background" alt="байкал">
+            <section class="cover">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala"  class="cover__link">
                 <h2 class="cover__title">До Байкала
                     «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы
                     о Транссибе — путешествие
                     от столицы до Байкала на электричках.</p>
             </a>
+            </section>
         </main>
         <footer >
             <nav class="footer">
@@ -202,7 +203,7 @@
                 <p class="footer__copyright">© 2022. Markina Olecia</p>
             </nav>
         </footer>
-    </div>
+    
 </body>
 
 </html>
